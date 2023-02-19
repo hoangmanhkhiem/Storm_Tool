@@ -1,0 +1,113 @@
+[Sun Feb 19 13:41:24 2023] PHP 8.2.1 Development Server (http://localhost:2525) started
+[Sun Feb 19 13:42:18 2023] [::1]:33744 Accepted
+[Sun Feb 19 13:42:18 2023] [::1]:33744 [302]: GET /
+[Sun Feb 19 13:42:18 2023] [::1]:33744 Closing
+[Sun Feb 19 13:42:19 2023] [::1]:33752 Accepted
+[Sun Feb 19 13:42:19 2023] [::1]:33752 [404]: GET /favicon.ico - No such file or directory
+[Sun Feb 19 13:42:19 2023] [::1]:33752 Closing
+[Sun Feb 19 13:42:58 2023] [::1]:60380 Accepted
+[Sun Feb 19 13:42:58 2023] [::1]:60380 [302]: GET /
+[Sun Feb 19 13:42:58 2023] [::1]:60380 Closing
+[Sun Feb 19 13:44:12 2023] [::1]:45834 Accepted
+[Sun Feb 19 13:44:13 2023] PHP Warning:  session_start(): open(/var/lib/php/sessions/sess_jri9js7k9rkcs56n4tsjctcj5v, O_RDWR) failed: Permission denied (13) in /home/ken/Documents/Storm-Breaker/storm-web/index.php on line 3
+[Sun Feb 19 13:44:13 2023] PHP Warning:  session_start(): Failed to read session data: files (path: /var/lib/php/sessions) in /home/ken/Documents/Storm-Breaker/storm-web/index.php on line 3
+[Sun Feb 19 13:44:13 2023] [::1]:45834 [302]: GET /
+[Sun Feb 19 13:44:13 2023] [::1]:45834 Closing
+[Sun Feb 19 13:44:13 2023] [::1]:45846 Accepted
+[Sun Feb 19 13:44:13 2023] PHP Warning:  session_start(): open(/var/lib/php/sessions/sess_jri9js7k9rkcs56n4tsjctcj5v, O_RDWR) failed: Permission denied (13) in /home/ken/Documents/Storm-Breaker/storm-web/panel.php on line 2
+[Sun Feb 19 13:44:13 2023] PHP Warning:  session_start(): Failed to read session data: files (path: /var/lib/php/sessions) in /home/ken/Documents/Storm-Breaker/storm-web/panel.php on line 2
+[Sun Feb 19 13:44:13 2023] [::1]:45846 [200]: GET /panel.php
+[Sun Feb 19 13:44:13 2023] [::1]:45846 Closing
+[Sun Feb 19 13:44:13 2023] [::1]:45850 Accepted
+[Sun Feb 19 13:44:13 2023] [::1]:45850 [200]: GET /assets/css/bootstrap.min.css
+[Sun Feb 19 13:44:13 2023] [::1]:45850 Closing
+[Sun Feb 19 13:44:13 2023] [::1]:45864 Accepted
+[Sun Feb 19 13:44:13 2023] [::1]:45864 [200]: GET /assets/css/light-theme.min.css
+[Sun Feb 19 13:44:13 2023] [::1]:45864 Closing
+[Sun Feb 19 13:44:13 2023] [::1]:45868 Accepted
+[Sun Feb 19 13:44:13 2023] [::1]:45868 [200]: GET /assets/js/jquery.min.js
+[Sun Feb 19 13:44:13 2023] [::1]:45882 Accepted
+[Sun Feb 19 13:44:13 2023] [::1]:45868 Closing
+[Sun Feb 19 13:44:13 2023] [::1]:45882 [200]: GET /assets/js/script.js
+[Sun Feb 19 13:44:13 2023] [::1]:45882 Closing
+[Sun Feb 19 13:44:13 2023] [::1]:45884 Accepted
+[Sun Feb 19 13:44:13 2023] [::1]:45898 Accepted
+[Sun Feb 19 13:44:13 2023] [::1]:45884 [200]: GET /assets/js/sweetalert2.min.js
+[Sun Feb 19 13:44:13 2023] [::1]:45884 Closing
+[Sun Feb 19 13:44:13 2023] [::1]:45898 [200]: GET /assets/js/growl-notification.min.js
+[Sun Feb 19 13:44:13 2023] [::1]:45898 Closing
+[Sun Feb 19 13:44:13 2023] [::1]:45906 Accepted
+[Sun Feb 19 13:44:13 2023] [::1]:45906 [200]: GET /Settings.json
+[Sun Feb 19 13:44:13 2023] [::1]:45906 Closing
+[Sun Feb 19 13:44:13 2023] [::1]:45918 Accepted
+[Sun Feb 19 13:44:13 2023] [::1]:45918 [200]: POST /list_templates.php
+[Sun Feb 19 13:44:13 2023] [::1]:45918 Closing
+[Sun Feb 19 13:44:16 2023] [::1]:45924 Accepted
+[Sun Feb 19 13:44:16 2023] [::1]:45924 [200]: POST /receiver.php
+[Sun Feb 19 13:44:16 2023] [::1]:45924 Closing
+[Sun Feb 19 13:44:18 2023] [::1]:60092 Accepted
+[Sun Feb 19 13:44:18 2023] [::1]:60092 [200]: POST /receiver.php
+[Sun Feb 19 13:44:18 2023] [::1]:60092 Closing
+[Sun Feb 19 13:44:20 2023] [::1]:60100 Accepted
+[Sun Feb 19 13:44:20 2023] [::1]:60100 [200]: POST /receiver.php
+[Sun Feb 19 13:44:20 2023] [::1]:60100 Closing
+[Sun Feb 19 13:44:22 2023] [::1]:60114 Accepted
+[Sun Feb 19 13:44:22 2023] [::1]:60114 [200]: POST /receiver.php
+[Sun Feb 19 13:44:22 2023] [::1]:60114 Closing
+[Sun Feb 19 13:44:24 2023] [::1]:60118 Accepted
+[Sun Feb 19 13:44:24 2023] [::1]:60118 [200]: POST /receiver.php
+[Sun Feb 19 13:44:24 2023] [::1]:60118 Closing
+[Sun Feb 19 13:44:26 2023] [::1]:60122 Accepted
+[Sun Feb 19 13:44:26 2023] [::1]:60122 [200]: POST /receiver.php
+[Sun Feb 19 13:44:26 2023] [::1]:60122 Closing
+[Sun Feb 19 13:44:28 2023] [::1]:57050 Accepted
+[Sun Feb 19 13:44:28 2023] [::1]:57050 [200]: POST /receiver.php
+[Sun Feb 19 13:44:28 2023] [::1]:57050 Closing
+[Sun Feb 19 13:44:30 2023] [::1]:57066 Accepted
+[Sun Feb 19 13:44:30 2023] [::1]:57066 [200]: POST /receiver.php
+[Sun Feb 19 13:44:30 2023] [::1]:57066 Closing
+[Sun Feb 19 13:44:32 2023] [::1]:57078 Accepted
+[Sun Feb 19 13:44:32 2023] [::1]:57078 [200]: POST /receiver.php
+[Sun Feb 19 13:44:32 2023] [::1]:57078 Closing
+[Sun Feb 19 13:44:34 2023] [::1]:57084 Accepted
+[Sun Feb 19 13:44:34 2023] [::1]:57084 [200]: POST /receiver.php
+[Sun Feb 19 13:44:34 2023] [::1]:57084 Closing
+[Sun Feb 19 13:44:36 2023] [::1]:57094 Accepted
+[Sun Feb 19 13:44:36 2023] [::1]:57094 [200]: POST /receiver.php
+[Sun Feb 19 13:44:36 2023] [::1]:57094 Closing
+[Sun Feb 19 13:44:38 2023] [::1]:56146 Accepted
+[Sun Feb 19 13:44:38 2023] [::1]:56146 [200]: POST /receiver.php
+[Sun Feb 19 13:44:38 2023] [::1]:56146 Closing
+[Sun Feb 19 13:44:40 2023] [::1]:56148 Accepted
+[Sun Feb 19 13:44:40 2023] [::1]:56148 [200]: POST /receiver.php
+[Sun Feb 19 13:44:40 2023] [::1]:56148 Closing
+[Sun Feb 19 13:44:42 2023] [::1]:56150 Accepted
+[Sun Feb 19 13:44:42 2023] [::1]:56150 [200]: POST /receiver.php
+[Sun Feb 19 13:44:42 2023] [::1]:56150 Closing
+[Sun Feb 19 13:44:44 2023] [::1]:56164 Accepted
+[Sun Feb 19 13:44:44 2023] [::1]:56164 [200]: POST /receiver.php
+[Sun Feb 19 13:44:44 2023] [::1]:56164 Closing
+[Sun Feb 19 13:44:46 2023] [::1]:56178 Accepted
+[Sun Feb 19 13:44:46 2023] [::1]:56178 [200]: POST /receiver.php
+[Sun Feb 19 13:44:46 2023] [::1]:56178 Closing
+[Sun Feb 19 13:44:48 2023] [::1]:44008 Accepted
+[Sun Feb 19 13:44:48 2023] [::1]:44008 [200]: POST /receiver.php
+[Sun Feb 19 13:44:48 2023] [::1]:44008 Closing
+[Sun Feb 19 13:44:50 2023] [::1]:44020 Accepted
+[Sun Feb 19 13:44:50 2023] [::1]:44020 [200]: POST /receiver.php
+[Sun Feb 19 13:44:50 2023] [::1]:44020 Closing
+[Sun Feb 19 13:44:52 2023] [::1]:44024 Accepted
+[Sun Feb 19 13:44:52 2023] [::1]:44024 [200]: POST /receiver.php
+[Sun Feb 19 13:44:52 2023] [::1]:44024 Closing
+[Sun Feb 19 13:44:54 2023] [::1]:44030 Accepted
+[Sun Feb 19 13:44:54 2023] [::1]:44030 [200]: POST /receiver.php
+[Sun Feb 19 13:44:54 2023] [::1]:44030 Closing
+[Sun Feb 19 13:44:56 2023] [::1]:44038 Accepted
+[Sun Feb 19 13:44:56 2023] [::1]:44038 [200]: POST /receiver.php
+[Sun Feb 19 13:44:56 2023] [::1]:44038 Closing
+[Sun Feb 19 13:44:58 2023] [::1]:56024 Accepted
+[Sun Feb 19 13:44:58 2023] [::1]:56024 [200]: POST /receiver.php
+[Sun Feb 19 13:44:58 2023] [::1]:56024 Closing
+[Sun Feb 19 13:45:00 2023] [::1]:56040 Accepted
+[Sun Feb 19 13:45:00 2023] [::1]:56040 [200]: POST /receiver.php
+[Sun Feb 19 13:45:00 2023] [::1]:56040 Closing
