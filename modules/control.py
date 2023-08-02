@@ -25,8 +25,7 @@ def kill_php_proc():
 
 def md5_hash():
     str2hash = time.strftime("%Y-%m-%d-%H:%M", time.gmtime())
-    result = hashlib.md5(str2hash.encode())
-    return result
+    return hashlib.md5(str2hash.encode())
 
 
 
@@ -44,7 +43,10 @@ def run_php_server(port):
         json.dump(data, jsonFile)
 
 
-    print(Fore.RED+" [+] "+Fore.GREEN+"Web Panel Link : "+Fore.WHITE+f"http://localhost:{port}")
+    print(
+        f"{Fore.RED} [+] {Fore.GREEN}Web Panel Link : {Fore.WHITE}"
+        + f"http://localhost:{port}"
+    )
     print(Fore.RED+"\n [+] "+Fore.LIGHTCYAN_EX+f"Please Run NGROK On Port {port} AND Send Link To Target > "+Fore.YELLOW+Back.BLACK+f"ngrok http {port}\n"+Style.RESET_ALL)
 
 

@@ -8,8 +8,10 @@ def banner():
       os.system("cls")
     else:
       os.system("clear")
-    print(Fore.LIGHTWHITE_EX+" (               )   (       *                (                     )       (")   
-    print(Fore.LIGHTWHITE_EX+" )\ )  *   )  ( /(   )\ )  (  `           (   )\ )       (       ( /(       )\ )")  
+    print(
+        f"{Fore.LIGHTWHITE_EX} (               )   (       *                (                     )       ("
+    )
+    print(Fore.LIGHTWHITE_EX+" )\ )  *   )  ( /(   )\ )  (  `           (   )\ )       (       ( /(       )\ )")
     print(Fore.LIGHTWHITE_EX+"(()/(` )  /(  )\()) (()/(  )\))(        ( )\ (()/( (     )\      )\()) (   (()/( " )
     print(Fore.LIGHTWHITE_EX+"/(_))( )(_))((_)\   /(_)_)()\       ___  )((_) /(_)))\ ((((_)(  |((_)\  )\   /(_)) ")
     print(Fore.CYAN+" (_)) (_(_())   ((_) (_))  (_()((_)|___|((_)_ (_)) ((_) )\ _ )\ |_ ((_)((_) (_)) "  )
